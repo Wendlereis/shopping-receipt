@@ -1,0 +1,18 @@
+{
+  "name": "shopping-receipt",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Wendler Eis",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "start": "tsx ./src/server.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.2",
+    "vitest": "^3.0.5"
+  }
+}
