@@ -58,7 +58,7 @@ describe("Cart Model", () => {
   });
 
   describe("Given the Input #2", () => {
-    test.only("should calculate the subtotal of a cart", () => {
+    test("should calculate the subtotal of a cart", () => {
       const result = cartModel.calculateSubtotal([
         {
           product: {
@@ -98,7 +98,7 @@ describe("Cart Model", () => {
   });
 
   describe("Given the Input #3", () => {
-    test.only("should calculate the subtotal of a cart", () => {
+    test("should calculate the subtotal of a cart", () => {
       const result = cartModel.calculateSubtotal([
         {
           product: {
